@@ -3717,7 +3717,7 @@ var Root = React.createClass({displayName: 'Root',
      * @returns {string}
      */
     getBaseUrl: function () {
-      return '/';
+      return '/react-bootstrap/';
     }
   },
 
