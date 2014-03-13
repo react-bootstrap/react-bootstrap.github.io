@@ -23,7 +23,7 @@ The site uses React bootstrap components, so first make sure you've built the pr
 ```sh
 $ cd react-bootstrap
 $ grunt serveDocs
-$ open http://localhost:4000/react-bootstrap/
+$ open http://localhost:4000/index.html
 ```
 
 After making any modifications you will need to regenerate the site. Like:
@@ -32,4 +32,5 @@ After making any modifications you will need to regenerate the site. Like:
 $ cd react-bootstrap
 $ grunt watch:docs # Automatically compiles as needed
 $ grunt build:docs # Single compile
+```le
 ```
