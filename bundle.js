@@ -2790,7 +2790,7 @@ var ProgressBarScreenreaderLabel = "/** @jsx React.DOM */\n\nvar progressInstanc
 var ProgressBarContextual = "/** @jsx React.DOM */\n\nvar progressInstance = (\n    <div>\n      <ProgressBar bsStyle=\"success\" now={40} />\n      <ProgressBar bsStyle=\"info\" now={20} />\n      <ProgressBar bsStyle=\"warning\" now={60} />\n      <ProgressBar bsStyle=\"danger\" now={80} />\n    </div>\n  );\n\nReact.renderComponent(progressInstance, mountNode);";
 var ProgressBarStriped = "/** @jsx React.DOM */\n\nvar progressInstance = (\n    <div>\n      <ProgressBar striped bsStyle=\"success\" now={40} />\n      <ProgressBar striped bsStyle=\"info\" now={20} />\n      <ProgressBar striped bsStyle=\"warning\" now={60} />\n      <ProgressBar striped bsStyle=\"danger\" now={80} />\n    </div>\n  );\n\nReact.renderComponent(progressInstance, mountNode);";
 var ProgressBarAnimated = "/** @jsx React.DOM */\n\nvar progressInstance = (\n    <ProgressBar active now={45} />\n  );\n\nReact.renderComponent(progressInstance, mountNode);";
-var ProgressBarStacked = "/** @jsx React.DOM */\n\nvar progressInstance = (\n    <ProgressBar>\n      <ProgressBar bsStyle=\"success\" now={35} />\n      <ProgressBar bsStyle=\"warning\" now={20} />\n      <ProgressBar bsStyle=\"danger\" now={10} />\n    </ProgressBar>\n  );\n\nReact.renderComponent(progressInstance, mountNode);";
+var ProgressBarStacked = "/** @jsx React.DOM */\n\nvar progressInstance = (\n    <ProgressBar>\n      <ProgressBar bsStyle=\"success\" now={35} key={1} />\n      <ProgressBar bsStyle=\"warning\" now={20} key={2}  />\n      <ProgressBar bsStyle=\"danger\" now={10} key={3}  />\n    </ProgressBar>\n  );\n\nReact.renderComponent(progressInstance, mountNode);";
 
 var ComponentsPage = React.createClass({displayName: 'ComponentsPage',
   render: function () {
@@ -2995,7 +2995,7 @@ var ComponentsPage = React.createClass({displayName: 'ComponentsPage',
                   ReactPlayground( {codeText:ProgressBarAnimated} ),
 
                   React.DOM.h2( {id:"modals-label"}, "Stacked"),
-                  React.DOM.p(null, "Nest ", React.DOM.code(null, "%lt;ProgressBar /%gt;"),"s to stack them."),
+                  React.DOM.p(null, "Nest ", React.DOM.code(null, "<ProgressBar />"),"s to stack them."),
                   ReactPlayground( {codeText:ProgressBarStacked} )
                 )
               ),
