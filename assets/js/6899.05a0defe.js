@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkreact_bootstrap_website=self.webpackChunkreact_bootstrap_website||[]).push([[6899],{36899:e=>{e.exports=JSON.parse('{"description":"","props":{"as":{"defaultValue":{"value":"divWithClassName(\'h5\')","computed":true},"required":false,"doclets":{}}}}')}}]);

@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkreact_bootstrap_website=self.webpackChunkreact_bootstrap_website||[]).push([[8213],{18213:e=>{e.exports=JSON.parse('{"description":"","props":{"as":{"defaultValue":{"value":"\'figcaption\'","computed":false},"required":false,"doclets":{}}}}')}}]);

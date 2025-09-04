@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkreact_bootstrap_website=self.webpackChunkreact_bootstrap_website||[]).push([[3063],{43063:e=>{e.exports=JSON.parse('{"description":"","props":{"bsPrefix":{"required":false,"tsType":{"name":"union","raw":"string | undefined","elements":[{"name":"string"},{"name":"undefined"}]},"description":"","doclets":{"default":"\'navbar-collapse\'"}}}}')}}]);

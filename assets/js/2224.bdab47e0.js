@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkreact_bootstrap_website=self.webpackChunkreact_bootstrap_website||[]).push([[2224],{42224:e=>{e.exports=JSON.parse('{"description":"","props":{"as":{"defaultValue":{"value":"\'span\'","computed":false},"required":false,"doclets":{}}}}')}}]);
